@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Result</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Result</h1>
+    <p th:text="'City Name: ' + ${page.name}" />
+    <p th:text="'State: ' + ${page.state}" />
+    <p th:text="'Temperature: ' + ${page.temperature}" />
+    
+    <a href="/greeting">Submit another message</a>
+</body>
+</html>
